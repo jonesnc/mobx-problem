@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.babel.js",
-    "start": "webpack-dev-server --open chromium-browser --hot --config webpack.dev.babel.js"
+    "start": "webpack-dev-server --open --hot --config webpack.dev.babel.js"
   },
   "repository": "",
   "author": "Nathan Jones <purkinje90@gmail.com>",
